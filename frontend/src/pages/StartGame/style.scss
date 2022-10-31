@@ -1,0 +1,48 @@
+.start-game {
+  background-color: #272626;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  .start-game-container {
+    background-color: #616161;
+    padding: 8px;
+    border-radius: 8px;
+    flex-direction: column;
+    display: flex;
+    width: 40%;
+  }
+
+  input {
+    background-color: white;
+    border: unset;
+    height: 25px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-block: 14px;
+    color: #009688;
+    :focus-visible {
+      outline: none !important;
+    }
+  }
+  button {
+    border: unset;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #009688;
+    color: white;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .start-game-container {
+    width: 60% !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .start-game-container {
+    width: 80% !important;
+  }
+}

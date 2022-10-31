@@ -1,0 +1,28 @@
+.game-board {
+  background-color: #212121;
+  height: 100vh;
+  color: white;
+  text-align: left;
+  padding: 7px;
+  .active-player {
+    margin: unset;
+  }
+  .canvas-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #616161;
+    border-radius: 8px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .player-info {
+    flex: 1;
+    margin: 8px;
+    .player-name {
+      text-align: center;
+    }
+  }
+}
